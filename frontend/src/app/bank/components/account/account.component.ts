@@ -41,3 +41,6 @@ export class AccountComponent implements OnInit {
     return specialCharacterPattern.test(customerName) ? { containsSpecialCharacters: true } : null;
   }
 }
+
+
+

@@ -70,5 +70,7 @@ onSubmit() {
     // You can proceed with registration if all validations pass
     this.customerSuccess$=of("Register clicked. Name: " + name + ", Email: " + email + ", Username: " + username + ", Password: " + password);
     return true;
-}  
+}
+  
+  
 }
